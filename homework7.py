@@ -89,3 +89,12 @@ if sax=="saba" :
 else :
     print("hello",sax ,"my name is saba nice to meet you")
 # 7) მომხმარებელს შემოატანინეთ თავისი ასაკი, შეინახეთ იგი ცვლადში და შეამოწმეთ მეტია თუ არა იგი 18.
+age= int(input("your age? ; "))
+if age >18 :
+    print ("you are over 18")
+    print(age>18)
+elif  age <18 : 
+    print ("you are",age,"you are too young")
+    print(age<18)
+else:
+    print ("Error excuze me im new")
